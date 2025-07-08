@@ -8,6 +8,9 @@ This project aims to centralize, process, and visualize weather and hotel data f
 - Top-rated hotels available
 - An interactive map based on user-selected criteria (bonus)
 
+  ![image](https://github.com/user-attachments/assets/8b1afdd4-c743-4aa2-80ec-2f5f9ea1ba75)
+
+
 ## Modular Architecture
 
 The project is now structured into **3 independent notebooks** and **2 python scripts** :
