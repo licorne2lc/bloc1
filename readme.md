@@ -8,7 +8,7 @@ This project aims to centralize, process, and visualize weather and hotel data f
 - Top-rated hotels available
 - An interactive map based on user-selected criteria (bonus)
 
-## 🧱 Modular Architecture
+## Modular Architecture
 
 The project is now structured into **3 independent notebooks**:
 
@@ -33,7 +33,7 @@ The project is now structured into **3 independent notebooks**:
 - Generate top 5 best cities with hotels available
 - Interactive map rendering (temperature, weather, wind)
 
-## 4. Technologies & Tools
+## Technologies & Tools
 
 - **Python 3.10+**
 - **Pandas / Numpy**: data manipulation
@@ -45,7 +45,7 @@ The project is now structured into **3 independent notebooks**:
 - **AWS S3**: cloud storage for `.csv` files
 - **.env**: secure API key management
 
-## 5. How to Run the Project
+## How to Run the Project
 
 1. Clone this repository
 2. Create a `.env` file at the root directory with your API keys:
@@ -61,7 +61,12 @@ AWS_SECRET_ACCESS_KEY=...
    - `kayack_sql.ipynb`
    - `kayack_top_5.ipynb`
 
-## 6. Next Steps
+## Genrated Maps
+
+![image](https://github.com/user-attachments/assets/79f02a4d-bc88-4cf2-b136-e3f065ae615a)
+
+
+## Next Steps
 
 - Full integration into a **Streamlit interface**
 - Web deployment (via streamlit.io or Docker container)
