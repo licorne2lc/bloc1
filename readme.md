@@ -10,7 +10,7 @@ This project aims to centralize, process, and visualize weather and hotel data f
 
 ## Modular Architecture
 
-The project is now structured into **3 independent notebooks**:
+The project is now structured into **3 independent notebooks** and **2 python scripts** :
 
 ### 1. `kayack_data.ipynb` — Data Acquisition
 
@@ -32,6 +32,10 @@ The project is now structured into **3 independent notebooks**:
 - User input: Date, desired and weather conditions beetween 3 choices : wind , temperatures or sun
 - Generate top 5 best cities with 5 best score hotels available
 - Interactive map rendering (temperature, weather, wind)
+
+### 4. spider scripts (scrapping Booking.com)
+- Spider 1 --> 20 hotels by cities list
+- Spider 2 --> informations about all hotels 
 
 ## Technologies & Tools
 
