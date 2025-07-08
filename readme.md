@@ -29,8 +29,8 @@ The project is now structured into **3 independent notebooks**:
 
 ### 3. `kayack_top_5.ipynb` — User Interface
 
-- User input: city, date, desired weather conditions
-- Generate top 5 best cities with hotels available
+- User input: Date, desired and weather conditions beetween 3 choices : wind , temperatures or sun
+- Generate top 5 best cities with 5 best score hotels available
 - Interactive map rendering (temperature, weather, wind)
 
 ## Technologies & Tools
@@ -61,9 +61,15 @@ AWS_SECRET_ACCESS_KEY=...
    - `kayack_sql.ipynb`
    - `kayack_top_5.ipynb`
 
-## Genrated Maps
+## Genrated Maps J+1 to J+8
+1.weather map
+![image](https://github.com/user-attachments/assets/2ad7cde2-6d08-4772-99fe-1539b370e2c7)
 
-![image](https://github.com/user-attachments/assets/79f02a4d-bc88-4cf2-b136-e3f065ae615a)
+2.temperature map
+![image](https://github.com/user-attachments/assets/7c9b4099-1d74-46bd-b5ef-8950482cc283)
+
+3.wind map
+![image](https://github.com/user-attachments/assets/59036176-dd1f-4560-ba17-19edfe919a33)
 
 
 ## Next Steps
