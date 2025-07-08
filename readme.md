@@ -33,7 +33,7 @@ The project is now structured into **3 independent notebooks** and **2 python sc
 ### 3. `kayack_top_5.ipynb` — User Interface
 
 - User input: Date, desired and weather conditions beetween 3 choices : wind , temperatures or sun
-- Generate top 5 best cities with 5 best score hotels available
+- Generate top 5 best cities with 3 best scores hotels available
 - Interactive map rendering (temperature, weather, wind)
 
 ### 4. spider scripts (scrapping Booking.com)
