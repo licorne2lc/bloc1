@@ -7,11 +7,11 @@ auteur : Jerome Moulinier
 Ce projet vise à centraliser, traiter et visualiser les données météo et hôtelières de plusieurs villes côtières françaises. 
 L’objectif final est de construire une application permettant aux utilisateurs d’explorer facilement :
 
-- La météo à venir (température, vent, ensoleillement)
-
-- Les hôtels les mieux notés disponibles
-
-- 2 cartes interactives basée sur les critères sélectionnés par l’utilisateur (bonus)
+    - La météo à venir (température, vent, ensoleillement)
+    
+    - Les hôtels les mieux notés disponibles
+    
+    - 2 cartes interactives basée sur les critères sélectionnés par l’utilisateur (bonus)
 
   ![image](https://github.com/user-attachments/assets/8b1afdd4-c743-4aa2-80ec-2f5f9ea1ba75)
 
