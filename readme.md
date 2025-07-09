@@ -105,13 +105,13 @@ AWS_SECRET_ACCESS_KEY=...
 
 ## Bonus 
 Generation des cartes meteo suivant les 3 criteres de J+1 to J+8
-1.Carte meteo
+### 1.Carte meteo
 ![image](https://github.com/user-attachments/assets/2ad7cde2-6d08-4772-99fe-1539b370e2c7)
 
-2.Carte des temperatures
+### 2.Carte des temperatures
 ![image](https://github.com/user-attachments/assets/7c9b4099-1d74-46bd-b5ef-8950482cc283)
 
-3.Carte des vents (force et orientation).
+###3.Carte des vents (force et orientation).
 ![image](https://github.com/user-attachments/assets/59036176-dd1f-4560-ba17-19edfe919a33)
 
 
