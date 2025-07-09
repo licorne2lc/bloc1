@@ -20,7 +20,7 @@ L’objectif final est de construire une application permettant aux utilisateurs
 
 Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
-1. kayack_data.ipynb — Acquisition des données
+### 1. kayack_data.ipynb — Acquisition des données
    
 - Récupération des coordonnées GPS via l’API Nominatim
 
@@ -32,7 +32,7 @@ Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
 - Bonus : génération de cartes météo avec Folium
 
-2. kayack_sql.ipynb — Pipeline ETL
+### 2. kayack_sql.ipynb — Pipeline ETL
 
   Pipelines séparés pour les 3 sources : Ville / Hôtels / Météo
 
@@ -44,7 +44,7 @@ Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
 ![image](https://github.com/user-attachments/assets/2f07e7f5-6998-4b0f-a160-045e5392d78d)
 
-3. kayack_top_5.ipynb — Interface Utilisateur
+### 3. kayack_top_5.ipynb — Interface Utilisateur
    
 - Saisie utilisateur : Date + condition météo souhaitée parmi 3 choix : vent, chaleur ou soleil
 
