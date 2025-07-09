@@ -52,7 +52,7 @@ Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
 - Rendu interactif sur carte (températures, météo, vent)
 
-4. Scripts spiders (scraping Booking.com)
+### 4. Scripts spiders (scraping Booking.com)
    
 - Spider 1 → Liste de 20 hôtels par ville generation du fichier "hotels_liste.json"
 
