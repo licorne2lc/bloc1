@@ -1,44 +1,61 @@
-# Kayak Project - Coastal Tourism Weather & Hotel Analysis
+# Projet Kayak - Analyse Tourisme Côtier : Météo & Hôtels
 
 ## 📄 Description
 
-This project aims to centralize, process, and visualize weather and hotel data for several French coastal cities. The final goal is to build an application that allows users to easily explore:
+Ce projet vise à centraliser, traiter et visualiser les données météo et hôtelières de plusieurs villes côtières françaises. L’objectif final est de construire une application permettant aux utilisateurs d’explorer facilement :
 
-- Upcoming weather (temperature, wind, sunshine)
-- Top-rated hotels available
-- An interactive map based on user-selected criteria (bonus)
+- La météo à venir (température, vent, ensoleillement)
+
+- Les hôtels les mieux notés disponibles
+
+- 2 cartes interactives basée sur les critères sélectionnés par l’utilisateur (bonus)
 
   ![image](https://github.com/user-attachments/assets/8b1afdd4-c743-4aa2-80ec-2f5f9ea1ba75)
 
 
-## Modular Architecture
+## Architecture du projet
 
-The project is now structured into **3 independent notebooks** and **2 python scripts** :
+Le projet est désormais structuré en 3 notebooks indépendants et 2 scripts Python :
 
-### 1. `kayack_data.ipynb` — Data Acquisition
+1. kayack_data.ipynb — Acquisition des données
+   
+- Récupération des coordonnées GPS via l’API Nominatim
 
-- Retrieve GPS coordinates via Nominatim API
-- Collect weather data from OpenWeather API
-- Scrape hotel listings using Scrapy spiders
-- Save and export `.csv` files to AWS S3
-- Bonus: generate weather maps using Folium
+- Collecte des données météo via l’API OpenWeather
 
-### 2. `kayack_sql.ipynb` — ETL Pipeline
+- Scraping des hôtels avec des spiders Scrapy
 
-- Separate pipelines for the 3 sources: City / Hotels / Weather
-- Cleaning, transforming, and normalizing datasets
-- Final merge into a unified dataset
-- Export to SQL or final CSV
+- Sauvegarde et export des fichiers .csv vers AWS S3
 
-### 3. `kayack_top_5.ipynb` — User Interface
+- Bonus : génération de cartes météo avec Folium
 
-- User input: Date, desired and weather conditions beetween 3 choices : wind , temperatures or sun
-- Generate top 5 best cities with 3 best scores hotels available
-- Interactive map rendering (temperature, weather, wind)
+2. kayack_sql.ipynb — Pipeline ETL
 
-### 4. spider scripts (scrapping Booking.com)
-- Spider 1 --> 20 hotels by cities list
-- Spider 2 --> informations about all hotels 
+  Pipelines séparés pour les 3 sources : Ville / Hôtels / Météo
+
+- Nettoyage, transformation et normalisation des données
+
+- Fusion finale en un dataset unifié
+
+- Export vers SQL ou fichier CSV final
+
+![image](https://github.com/user-attachments/assets/2f07e7f5-6998-4b0f-a160-045e5392d78d)
+
+3. kayack_top_5.ipynb — Interface Utilisateur
+   
+- Saisie utilisateur : Date + condition météo souhaitée parmi 3 choix : vent, chaleur ou soleil
+
+- Génération du Top 5 des meilleures villes avec les 3 meilleurs hôtels disponibles
+
+- Rendu interactif sur carte (températures, météo, vent)
+
+4. Scripts spiders (scraping Booking.com)
+   
+- Spider 1 → Liste de 20 hôtels par ville generation du fichier "hotels_liste.json"
+
+- Spider 2 → Informations détaillées sur chaque hôtel "hotels_liste_details.json"
+
+⚠️ Le scraping du site Booking.com a été réalisé dans un cadre strictement pédagogique et non commercial, dans le contexte de ma formation en science des données. Une attention particulière a été portée au respect des règles d'éthique du scraping, en limitant le volume de requêtes et en évitant toute surcharge des serveurs.
 
 ## Technologies & Tools
 
@@ -52,7 +69,7 @@ The project is now structured into **3 independent notebooks** and **2 python sc
 - **AWS S3**: cloud storage for `.csv` files
 - **.env**: secure API key management
 
-## How to Run the Project
+## Démarrage rapide.
 
 1. Clone this repository
 2. Create a `.env` file at the root directory with your API keys:
@@ -63,7 +80,7 @@ AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
 ```
 
-3. Run the notebooks in this order:
+3. Run les notebooks dans cet ordre:
    - `kayack_data.ipynb`
    - `kayack_sql.ipynb`
    - `kayack_top_5.ipynb`
