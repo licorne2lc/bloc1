@@ -1,4 +1,4 @@
-# Projet Kayak - Analyse Tourisme Côtier : Météo & Hôtels
+# Projet Kayak - Construction d'une architecture de données
 
 auteur : Jerome Moulinier 
 
