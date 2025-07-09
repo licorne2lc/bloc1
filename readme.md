@@ -88,19 +88,19 @@ AWS_SECRET_ACCESS_KEY=...
    - `kayack_sql.ipynb`
    - `kayack_top_5.ipynb`
 
-   Resultat avec 2 cartes
+   Resultat avec 2 cartes:
    
-    A. map -->  top 5 des villes correspondant au criteres Date & la condition meteo recherché:
+    A. Map -->  top 5 des villes correspondant au criteres Date & la condition meteo recherché:
       
     ![image](https://github.com/user-attachments/assets/c7102867-83c7-42f8-94a8-561ac128f033)
 
-    B. map --> top 3 hotels pour les 5 villes.
+    B. Map --> top 3 hotels pour les 5 villes.
    
    ![image](https://github.com/user-attachments/assets/fce335ad-8a3b-4d7a-a69a-dabc041df799)
    
    ![image](https://github.com/user-attachments/assets/39352737-2fe4-4319-9235-48a281923efc)
 
-    c. dataframe avec les details des 3 hotels pour les 5 villes.
+    c. Dataframe avec les details des 3 hotels pour les 5 villes.
    
     ![image](https://github.com/user-attachments/assets/de2ebfaa-0b60-4e68-8e39-9c731bf56168)
 
