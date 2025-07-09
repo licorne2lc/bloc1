@@ -36,11 +36,11 @@ Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
   Pipelines séparés pour les 3 sources : Ville / Hôtels / Météo
 
-- Nettoyage, transformation et normalisation des données
+- Nettoyage, transformation et normalisation des données.
+
+- Export vers SQL et fichier CSV en local
 
 - Fusion finale en un dataset unifié
-
-- Export vers SQL ou fichier CSV final
 
 ![image](https://github.com/user-attachments/assets/2f07e7f5-6998-4b0f-a160-045e5392d78d)
 
