@@ -4,7 +4,8 @@ auteur : Jerome Moulinier
 
 ## 📄 Description
 
-Ce projet vise à centraliser, traiter et visualiser les données météo et hôtelières de plusieurs villes côtières françaises. L’objectif final est de construire une application permettant aux utilisateurs d’explorer facilement :
+Ce projet vise à centraliser, traiter et visualiser les données météo et hôtelières de plusieurs villes côtières françaises. 
+L’objectif final est de construire une application permettant aux utilisateurs d’explorer facilement :
 
 - La météo à venir (température, vent, ensoleillement)
 
