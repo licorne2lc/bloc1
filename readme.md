@@ -1,5 +1,7 @@
 # Projet Kayak - Analyse Tourisme Côtier : Météo & Hôtels
 
+auteur : Jerome Moulinier 
+
 ## 📄 Description
 
 Ce projet vise à centraliser, traiter et visualiser les données météo et hôtelières de plusieurs villes côtières françaises. L’objectif final est de construire une application permettant aux utilisateurs d’explorer facilement :
@@ -85,29 +87,30 @@ AWS_SECRET_ACCESS_KEY=...
    - `kayack_sql.ipynb`
    - `kayack_top_5.ipynb`
 
-   Result with map and dataframe
+   Resultat avec 2 cartes
    
-    A. map -->  cities ranking with info weather conditions   
-  ![image](https://github.com/user-attachments/assets/c7102867-83c7-42f8-94a8-561ac128f033)
+    A. map -->  top 5 des villes correspondant au criteres Date & la condition meteo recherché:   
+    ![image](https://github.com/user-attachments/assets/c7102867-83c7-42f8-94a8-561ac128f033)
 
-    B. map --> top 3 hotels by cities
+    B. map --> top 3 hotels pour les 5 villes
    ![image](https://github.com/user-attachments/assets/fce335ad-8a3b-4d7a-a69a-dabc041df799)
    
    ![image](https://github.com/user-attachments/assets/39352737-2fe4-4319-9235-48a281923efc)
 
-    c. dataframe with hotels selection 
-  ![image](https://github.com/user-attachments/assets/de2ebfaa-0b60-4e68-8e39-9c731bf56168)
+    c. dataframe avec les details des 3 hotels pour les 5 villes 
+    ![image](https://github.com/user-attachments/assets/de2ebfaa-0b60-4e68-8e39-9c731bf56168)
 
 
 
-## Genrated Maps J+1 to J+8
-1.weather map
+## Bonus 
+Generation des cartes meteo suivant les 3 criteres de J+1 to J+8
+1.Carte meteo
 ![image](https://github.com/user-attachments/assets/2ad7cde2-6d08-4772-99fe-1539b370e2c7)
 
-2.temperature map
+2.Carte des temperatures
 ![image](https://github.com/user-attachments/assets/7c9b4099-1d74-46bd-b5ef-8950482cc283)
 
-3.wind map
+3.Carte des vents (force et orientation).
 ![image](https://github.com/user-attachments/assets/59036176-dd1f-4560-ba17-19edfe919a33)
 
 
@@ -120,4 +123,3 @@ AWS_SECRET_ACCESS_KEY=...
 
 ---
 
-Created as part of the "Kayak Intelligent Tourism" project ✨
