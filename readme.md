@@ -18,7 +18,7 @@ L’objectif final est de construire une application permettant aux utilisateurs
 
 ## Architecture du projet
 
-Le projet est désormais structuré en 3 notebooks indépendants et 2 scripts Python :
+Le projet est structuré en 3 notebooks indépendants et 2 scripts Python :
 
 1. kayack_data.ipynb — Acquisition des données
    
